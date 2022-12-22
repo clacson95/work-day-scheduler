@@ -8,7 +8,6 @@ $("#time").text(moment().format("LTS"));
 $("#date").text(moment().format("dddd, MMMM Do, YYYY"));
 
 
-
 //saveBtn function to save the inputvalue in the local stprage
 $(".saveBtn").on("click", function () {
     console.log(this);
@@ -24,12 +23,9 @@ $(".saveBtn").on("click", function () {
     //Use jQuery to set items in the local storage
     localStorage.setItem(keyvalue, inputvalue);
     var inputEl = localStorage.getItem("keyvalue");
-
-
-    
 })
 
-// Use moment.js fomate to create this function to get current number of hours.
+
 function hourTracker() {
     var currentHour = moment().hour();
 
@@ -55,8 +51,6 @@ function hourTracker() {
 }
 
 function checkStorage ()  {
-    // Reference link: https://www.codegrepper.com/code-examples/javascript/javascript+localstorage+getitem //
-    // Refeeence link: https://www.w3schools.com/jsref/prop_win_localstorage.asp//
     $("#9am").val(localStorage.getItem("hour-9am"));
     $("#10am").val(localStorage.getItem("hour-10am"));
     $("#11am").val(localStorage.getItem("hour-11am"));
@@ -66,11 +60,8 @@ function checkStorage ()  {
     $("#15pm").val(localStorage.getItem("hour-15pm"));
     $("#16pm").val(localStorage.getItem("hour-16pm"));
     $("#17pm").val(localStorage.getItem("hour-17pm"));
-    
-    // check storage, if true set input values 
 }
 
 checkStorage();
 
-// Go back to the hourTracker function
 hourTracker();
