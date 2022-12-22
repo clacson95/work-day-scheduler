@@ -1,24 +1,21 @@
 # work-day-scheduler [![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-This application
+This application is a scheduler for any given work day. It utilizes JQuery and Moment.js.
 
 This application is deployed with **GitHub Pages**:
 ### [Deployed Application]()
 
 ## Table of Contents
-* [Demo](#demo)
 * [Screenshots](#screenshots)
 * [Usage](#usage)
-* [Installation](#installation)
 * [License](#license)
 * [How to Contribute](#how-to-contribute)
 * [Questions](#questions)
 
-## Demo
-### [Click here to watch a walkthrough video!]()
-
 ## Screenshots
+![image](https://user-images.githubusercontent.com/108302822/209074809-4f7a34e4-f54c-4998-8c6d-8b2480f8083a.png)
+
 
 ## Usage
 
@@ -27,14 +24,7 @@ There are two methods to use this application:
 1. Use the link above to access the deployed application.
 2. To use this back-end application, fork the repository, clone the repository, or download the ZIP file to access the code for yourself. This will require you to have a text editor. I recommend Visual Studio Code, but there are a plethora of other options available.
 
-Next, follow the Installation instructions below.
-
-Then, open the application folder and enter `npm run start` and open the app at http://localhost:3000/.
-
-## Installation
-1. Ensure node.js is installed. 
-3. Create a `package.json` file by entering the `npm init -y` command in the terminal. 
-4. Open the app in the terminal and enter the following command to install required dependencies: `npm install`
+Then, simply open the app at http://localhost:3000/.
 
 ## License
 
