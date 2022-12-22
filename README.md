@@ -3,7 +3,7 @@
 ## Description
 This application
 
-This application is deployed with **Heroku**:
+This application is deployed with **GitHub Pages**:
 ### [Deployed Application]()
 
 ## Table of Contents
