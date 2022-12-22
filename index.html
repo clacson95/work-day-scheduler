@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="https://kit.fontawesome.com/901a29e692.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
-
     <!-- stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
@@ -24,12 +18,14 @@
 
   <body>
 
-
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead subtitle">A simple calendar app for scheduling your work day</p>
-      <p id="time"></p>
-      <p id="date" class="lead"></p>
+      <p class="buffer"></p>
+      <div class="moment">
+        <p id="time"></p>
+        <p id="date" class="lead"></p>
+      </div>
     </header>
 
     
@@ -60,37 +56,44 @@
         <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
       </div>
 
-      <div id="hour-1pm" class="row time-block">
+      <div id="hour-13pm" class="row time-block">
         <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">1:00pm</div>
-        <input id="1pm" class="col-md-8 description" placeholder="Type here">
+        <input id="13pm" class="col-md-8 description" placeholder="Type here">
         <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
       </div>
 
-      <div id="hour-2pm" class="row time-block">
+      <div id="hour-14pm" class="row time-block">
         <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">2:00pm</div>
-        <input id="2pm" class="col-md-8 description" placeholder="Type here">
+        <input id="14pm" class="col-md-8 description" placeholder="Type here">
         <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
       </div>
 
-      <div id="hour-3pm" class="row time-block">
+      <div id="hour-15pm" class="row time-block">
         <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">3:00pm</div>
-        <input id="3pm" class="col-md-8 description" placeholder="Type here">
+        <input id="15pm" class="col-md-8 description" placeholder="Type here">
         <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
       </div>
 
-      <div id="hour-4pm" class="row time-block">
+      <div id="hour-16pm" class="row time-block">
         <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">4:00pm</div>
-        <input id="4pm"  class="col-md-8 description" placeholder="Type here">
+        <input id="16pm"  class="col-md-8 description" placeholder="Type here">
         <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
       </div>
 
-      <div id="hour-5pm" class="row time-block">
+      <div id="hour-17pm" class="row time-block">
         <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">5:00pm</div>
-        <input id="5pm" class="col-md-8 description" placeholder="Type here">
+        <input id="17pm" class="col-md-8 description" placeholder="Type here">
         <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
       </div>
-
     </div>
+
+
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://kit.fontawesome.com/901a29e692.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
   </body>
   <footer id="footer"></footer>
 </html>

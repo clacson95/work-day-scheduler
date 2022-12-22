@@ -13,24 +13,23 @@ textarea {
   padding: 10px;
 }
 
-#time {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: darkgoldenrod;
-}
-
-#date {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: darkgoldenrod;
-}
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+.moment {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgba(150, 15, 15, 0.877);
+  background-color: #f8e195;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 45px;
 }
 
 .description {
@@ -60,18 +59,18 @@ textarea {
 }
 
 .past {
-  background-color: #777777;
-  color: white;
+  background-color: #a7a7a7;
+  color: black;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: #f8b2af;
+  color: black;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: #c3f7c3fd;
+  color: black;
 }
 
 .saveBtn {
@@ -95,4 +94,8 @@ textarea {
 
 .subtitle {
   padding-top: 20px;
+}
+
+.buffer {
+  margin-top: 60px;
 }

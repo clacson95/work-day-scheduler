@@ -1,22 +1,3 @@
-// ************************************************
-//    
-//     [Table of Contents]
-//
-//     - 
-//     - 
-//     - 
-//     - 
-//
-//
-// ************************************************
-
-
-
-// ======
-// Header
-// ======
-
-
 // reference: https://momentjs.com/ 
 // the moment() method can be used to call the immediate time/date depending on the specified format
 
@@ -80,11 +61,11 @@ function checkStorage ()  {
     $("#10am .description").val(localStorage.getItem("hour-10am"));
     $("#11am .description").val(localStorage.getItem("hour-11am"));
     $("#12pm .description").val(localStorage.getItem("hour-12pm"));
-    $("#1pm .description").val(localStorage.getItem("hour-1pm"));
-    $("#2pm .description").val(localStorage.getItem("hour-2pm"));
-    $("#3pm .description").val(localStorage.getItem("hour-3pm"));
-    $("#4pm .description").val(localStorage.getItem("hour-4pm"));
-    $("#5pm .description").val(localStorage.getItem("hour-5pm"));
+    $("#13pm .description").val(localStorage.getItem("hour-13pm"));
+    $("#14pm .description").val(localStorage.getItem("hour-14pm"));
+    $("#15pm .description").val(localStorage.getItem("hour-15pm"));
+    $("#16pm .description").val(localStorage.getItem("hour-16pm"));
+    $("#17pm .description").val(localStorage.getItem("hour-17pm"));
     
     // check storage, if true set input values 
 }
