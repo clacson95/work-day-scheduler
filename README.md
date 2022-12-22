@@ -4,7 +4,7 @@
 This application is a scheduler for any given work day. It utilizes JQuery and Moment.js.
 
 This application is deployed with **GitHub Pages**:
-### [Deployed Application]()
+### [Deployed Application](https://clacson95.github.io/work-day-scheduler/)
 
 ## Table of Contents
 * [Screenshots](#screenshots)
@@ -15,7 +15,6 @@ This application is deployed with **GitHub Pages**:
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/108302822/209074809-4f7a34e4-f54c-4998-8c6d-8b2480f8083a.png)
-
 
 ## Usage
 
