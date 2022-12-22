@@ -82,7 +82,7 @@ textarea {
   font-size: 35px;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 70px;
   transition: all 0.3s ease-in-out;
 }

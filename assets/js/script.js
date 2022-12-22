@@ -58,14 +58,14 @@ function checkStorage ()  {
     // Reference link: https://www.codegrepper.com/code-examples/javascript/javascript+localstorage+getitem //
     // Refeeence link: https://www.w3schools.com/jsref/prop_win_localstorage.asp//
     $("#9am").val(localStorage.getItem("hour-9am"));
-    $("#10am .description").val(localStorage.getItem("hour-10am"));
-    $("#11am .description").val(localStorage.getItem("hour-11am"));
-    $("#12pm .description").val(localStorage.getItem("hour-12pm"));
-    $("#13pm .description").val(localStorage.getItem("hour-13pm"));
-    $("#14pm .description").val(localStorage.getItem("hour-14pm"));
-    $("#15pm .description").val(localStorage.getItem("hour-15pm"));
-    $("#16pm .description").val(localStorage.getItem("hour-16pm"));
-    $("#17pm .description").val(localStorage.getItem("hour-17pm"));
+    $("#10am").val(localStorage.getItem("hour-10am"));
+    $("#11am").val(localStorage.getItem("hour-11am"));
+    $("#12pm").val(localStorage.getItem("hour-12pm"));
+    $("#13pm").val(localStorage.getItem("hour-13pm"));
+    $("#14pm").val(localStorage.getItem("hour-14pm"));
+    $("#15pm").val(localStorage.getItem("hour-15pm"));
+    $("#16pm").val(localStorage.getItem("hour-16pm"));
+    $("#17pm").val(localStorage.getItem("hour-17pm"));
     
     // check storage, if true set input values 
 }
