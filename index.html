@@ -1,40 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://kit.fontawesome.com/901a29e692.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- title -->
     <title>Work Day Scheduler</title>
   </head>
 
+
   <body>
+
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p class="lead subtitle">A simple calendar app for scheduling your work day</p>
+      <p id="time"></p>
+      <p id="date" class="lead"></p>
     </header>
 
     
     <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <!-- Timeblocks -->
+      <div id="hour-9am" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">9:00am</div>
+        <input id="9am" class="col-md-8 description" placeholder="Type here">
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></i></button>
+      </div>
+
+      <div id="hour-10am" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center" time>10:00am</div>
+        <input id="10am" class="col-md-8 description" placeholder="Type here"></input>
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+      </div>  
+
+      <div id="hour-11am" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">11:00am</div>
+        <input id="11am" class="col-md-8 description" placeholder="Type here">
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+      </div> 
+
+      <div id="hour-12pm" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">12:00pm</div>
+        <input id="12pm" class="col-md-8 description" placeholder="Type here">
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+      </div>
+
+      <div id="hour-1pm" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">1:00pm</div>
+        <input id="1pm" class="col-md-8 description" placeholder="Type here">
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+      </div>
+
+      <div id="hour-2pm" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">2:00pm</div>
+        <input id="2pm" class="col-md-8 description" placeholder="Type here">
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+      </div>
+
+      <div id="hour-3pm" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">3:00pm</div>
+        <input id="3pm" class="col-md-8 description" placeholder="Type here">
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+      </div>
+
+      <div id="hour-4pm" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">4:00pm</div>
+        <input id="4pm"  class="col-md-8 description" placeholder="Type here">
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+      </div>
+
+      <div id="hour-5pm" class="row time-block">
+        <div id="row" class="col-md-2 hour d-flex justify-content-center align-items-center">5:00pm</div>
+        <input id="5pm" class="col-md-8 description" placeholder="Type here">
+        <button class="col-md-2 check-button saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+      </div>
+
+    </div>
   </body>
+  <footer id="footer"></footer>
 </html>

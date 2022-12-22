@@ -13,6 +13,18 @@ textarea {
   padding: 10px;
 }
 
+#time {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: darkgoldenrod;
+}
+
+#date {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: darkgoldenrod;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -34,6 +46,7 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  font-size: 25px;
 }
 
 .hour {
@@ -42,8 +55,12 @@ textarea {
   border-top: 1px dashed #000000;
 }
 
+.bottom {
+  border-bottom: 1px dashed #000000;
+}
+
 .past {
-  background-color: #d3d3d3;
+  background-color: #777777;
   color: white;
 }
 
@@ -63,9 +80,19 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  font-size: 35px;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 70px;
   transition: all 0.3s ease-in-out;
+}
+
+#footer {
+  text-align: center;
+  margin: 35px;
+}
+
+.subtitle {
+  padding-top: 20px;
 }
