@@ -22,8 +22,7 @@ There are two methods to use this application:
 
 1. Use the link above to access the deployed application.
 2. Fork the repository, clone the repository, or download the ZIP file to access the code for yourself. This will require you to have a text editor. I recommend Visual Studio Code, but there are a plethora of other options available.
-    * Run `node server.js` in the terminal.
-    * Open the app in your browser at http://localhost:3000/.
+    * Open the app in your browser.
 
 ## License
 
